@@ -2,16 +2,20 @@
 
 ## Purpose
 
-Supports checks and maintenance for administrative separation between security tiers.
+Checks and maintains administrative separation between security tiers.
 
 ## Example contents
 
-Reviewing privileged groups, administrative accounts, and sign-in restrictions across tiers.
+Reviews of administrative accounts, privileged groups, and sign-in restrictions.
 
 ## Scope
 
-Lab topology deployment belongs in `SysAdminDk` repositories. General AD hardening belongs in `../../ActiveDirectory/Hardening`.
+Environment topology follows the deployment. General AD hardening belongs in ../../ActiveDirectory/Hardening.
 
 ## Dependencies
 
-Requires the environment's tier definitions and access to the relevant groups, OUs, and GPOs.
+Environment tier definitions and access to groups, OUs, and GPOs.
+
+## Existing reference
+
+[Active Directory Tier Model](https://github.com/microsoft/ActiveDirectoryTierModel)

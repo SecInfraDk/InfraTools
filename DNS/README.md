@@ -6,12 +6,12 @@ Administers and troubleshoots existing DNS services.
 
 ## Example contents
 
-Reviewing zone contents, validating records, and diagnosing name resolution.
+Zone reviews, record checks, and name resolution diagnostics.
 
 ## Scope
 
-Installation and baseline configuration belong in `InfraAsCode/BuildScripts/Services/DNS`.
+Installation and initial configuration belong in InfraAsCode/BuildScripts/Services/DNS.
 
 ## Dependencies
 
-Requires access to the relevant DNS servers. Windows DNS administration through PowerShell may require the DnsServer module and delegated permissions.
+DNS connectivity and the DnsServer module and delegated rights where required.

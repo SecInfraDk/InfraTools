@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Produces reusable reports for ongoing AD operations.
+Produces recurring AD operations reports.
 
 ## Example contents
 
-CSV exports of group memberships, account inventories, and recurring status reports.
+Group membership exports, account inventories, and status reports.
 
 ## Scope
 
-Security risk reviews belong in `../Assessment`. AD changes belong with maintenance or hardening tools.
+Risk assessment belongs in ../Assessment. Changes belong with maintenance and hardening tools.
 
 ## Dependencies
 
-Requires the applicable read permissions, the AD module where used, and a destination for generated reports.
+Read permissions, applicable AD modules, and a destination for generated reports.

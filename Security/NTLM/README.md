@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Identifies and manages NTLM use in existing environments.
+Assesses and manages NTLM use.
 
 ## Example contents
 
-Analyzing NTLM events, identifying dependent systems, and changing authentication policies.
+Event analysis, dependency identification, and authentication policy changes.
 
 ## Scope
 
-Kerberos checks belong in `../Kerberos`. Lab-specific demonstration code stays with its lab scenario.
+Kerberos checks belong in ../Kerberos. Lab demonstration code follows its scenario.
 
 ## Dependencies
 
-Depends on relevant event logs or audit policies. Policy changes require access to the applicable GPO or machine.
+Access to relevant logs, audit settings, and any affected GPOs or machines.

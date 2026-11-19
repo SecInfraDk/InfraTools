@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Provides security tools for existing infrastructure across multiple areas.
+Provides security assessment and remediation across existing infrastructure.
 
 ## Example contents
 
-Kerberos and NTLM assessment, PingCastle remediation, and checks for administrative tiering.
+Kerberos, NTLM, PingCastle, and administrative tiering tools.
 
 ## Scope
 
-General AD hardening belongs in `../ActiveDirectory/Hardening`. Role installation and initial configuration belong in `InfraAsCode`.
+General AD hardening belongs in ../ActiveDirectory/Hardening. Installation recipes belong in InfraAsCode.
 
 ## Dependencies
 
-Required modules, event data, and permissions depend on the individual tool and the check it performs.
+Relevant event data, system access, and permissions for each check or change.

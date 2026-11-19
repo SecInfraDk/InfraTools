@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Provides tools for operating and securing existing Active Directory domains.
+Operates and assesses existing AD environments.
 
 ## Example contents
 
-Risk reviews in `Assessment`, configuration changes in `Hardening`, cleanup in `Maintenance`, and recurring exports in `Reporting`.
+Assessment, Hardening, Maintenance, and Reporting.
 
 ## Scope
 
-Domain controller installation and promotion belong in `InfraAsCode/BuildScripts/Services/ADDS`. PingCastle-specific remediation belongs in `../Security/PingCastle`.
+AD DS installation belongs in InfraAsCode/BuildScripts/Services/ADDS.
 
 ## Dependencies
 
-Requires domain access, applicable AD tooling, and read or change permissions for the operation.
+Domain connectivity, relevant AD tooling, and permissions for the operation.

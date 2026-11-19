@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Hardens security settings in existing AD domains.
+Hardens existing AD environments.
 
 ## Example contents
 
-Adjusting privileged group memberships and remediating insecure delegations.
+Changes to privileged memberships and insecure delegations.
 
 ## Scope
 
-Fixes for specific PingCastle findings belong in `../../Security/PingCastle`. AD DS installation belongs in `InfraAsCode`.
+PingCastle-specific remediation belongs in ../../Security/PingCastle. Initial role installation belongs in InfraAsCode.
 
 ## Dependencies
 
-Requires an existing domain and permissions to change the affected objects or policies.
+Change permissions for the affected AD objects and policies.

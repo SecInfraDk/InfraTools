@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Assesses and secures Kerberos use in existing environments.
+Assesses and secures Kerberos use.
 
 ## Example contents
 
-Checks for SPNs, delegation, and supported encryption types.
+Checks for SPNs, delegation, and encryption settings.
 
 ## Scope
 
-AD DS installation belongs in `InfraAsCode`. Fixes for individual PingCastle findings belong in `../PingCastle`.
+AD DS installation belongs in InfraAsCode. PingCastle-specific fixes belong in ../PingCastle.
 
 ## Dependencies
 
-Requires access to the relevant AD objects and any Kerberos events used by the tool. Changes require delegated permissions.
+Access to relevant AD objects and events, plus delegated rights for changes.

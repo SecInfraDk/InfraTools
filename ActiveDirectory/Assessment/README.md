@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Identifies risks and assesses the state of existing AD domains.
+Assesses AD state and security risks.
 
 ## Example contents
 
-Reviews of privileged groups, delegations, and stale accounts.
+Reviews of privileged groups, delegation, and stale accounts.
 
 ## Scope
 
-Security configuration changes belong in `../Hardening`. Recurring report exports belong in `../Reporting`.
+Changes belong in ../Hardening or ../Maintenance. Recurring exports belong in ../Reporting.
 
 ## Dependencies
 
-Requires access to the AD objects being assessed and the ActiveDirectory module where used.
+Read access to relevant AD objects and the ActiveDirectory module where used.

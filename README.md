@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Provides tools for assessing, operating, and securing existing infrastructure.
+Provides assessment, administration, reporting, and remediation for existing guest infrastructure.
 
 ## Example contents
 
-AD reports, PingCastle remediation, DNS and DHCP diagnostics, and Hyper-V and Proxmox administration.
+Active Directory, DHCP, DNS, PKI, Windows Server, and security tools.
 
 ## Scope
 
-Shared service installation and VM provisioning belong in `InfraAsCode`. Environment-specific lab orchestration belongs in `SysAdminDk` repositories.
+Platform operations belong in the platform repositories. Guest installation and rebuild recipes belong in InfraAsCode.
 
 ## Dependencies
 
-Each tool requires access, permissions, and any modules specific to its target system. Shared helpers belong in [`Modules`](Modules/).
+Each tool requires access and permissions for its target systems. Cross-repository helpers come from InfraModules.
