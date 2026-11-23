@@ -1,17 +1,28 @@
 # InfraTools
 
-## Purpose
+> ⚠️ **Work In Progress — Under Active Development**
 
-Provides assessment, administration, reporting, and remediation for existing guest infrastructure.
+This repository is currently being restructured and migrated from an existing internal deployment framework.
 
-## Example contents
+Scripts, modules, configuration files, and documentation are being added and updated incrementally.
 
-Active Directory, DHCP, DNS, PKI, Windows Server, and security tools.
+**Current status:**
+- Existing functionality is being reviewed and migrated.
+- Scripts and modules may change without notice.
+- Documentation is incomplete.
+- The repository is not yet intended for production use by third parties.
 
-## Scope
+Once the migration and validation are complete, this notice will be removed.
 
-Platform operations belong in the platform repositories. Guest installation and rebuild recipes belong in InfraAsCode.
+## Project
 
-## Dependencies
+PowerShell-based infrastructure automation for Microsoft Infrastructure, developed as part of the SecInfraDK infrastructure deployment framework.
 
-Each tool requires access and permissions for its target systems. Cross-repository helpers come from InfraModules.
+
+## License
+
+Copyright © 2026 SecInfraDK.
+
+This project is currently under development and has not yet been released under an open-source license.
+
+All rights reserved. A license may be added at a later stage.
